@@ -1,5 +1,3 @@
-License: Public Domain
-
 Before doing anything else, go to your php.ini file and change execution_time to a high number. I set it to 99999. 
 
 ## Installing ##
