@@ -61,7 +61,7 @@ function send_data_post() {
     
     for(var i = 0; i < checkboxes.length; i++) {
         if(checkboxes[i].checked === true) {
-            checked_posts.push(posts[i].getElementsByClassName('fileThumb')[0].getAttribute('href'));
+            checked_posts.push(checkboxes[i].parentNode.parentNode.getElementsByClassName('file')[0].getElementsByClassName('fileThumb')[0].getAttribute('href'));
         }
     }
     
